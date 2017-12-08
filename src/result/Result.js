@@ -18,7 +18,7 @@ export default class Result extends Component {
     if (this.state.alertVisible) {
       return (
         <Alert bsStyle={this.props.output ? this.props.output.className: ''} onDismiss={this.handleAlertDismiss}>
-          <strong>Holy guacamole!</strong> {this.props.output ? this.props.output.message : ''}
+          <strong>Holy guacamole! </strong> {this.props.output ? this.props.output.message : ''}
         </Alert>
       )
     } else {
